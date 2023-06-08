@@ -65,14 +65,6 @@ void zamjena(int *a, int *b){
     *b = temp;
 }
 
-int lijevi(int i){
-    return (2 * i) + 1;
-}
-
-int desni(int i){
-    return (2 * i) + 2;
-}
-
 void uhrpljavanje(int *arr, int n, int i){
     int largest = i;
     int left = 2 * i + 1;
