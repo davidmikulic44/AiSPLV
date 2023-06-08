@@ -118,7 +118,7 @@ int main(){
     int *arr=(int*)malloc(VELICINA*sizeof(int));
     srand((unsigned)time(NULL));
     for(int i=0; i<VELICINA;i++){
-        arr[i]=rand()%(VELICINA*10);
+        arr[i]=rand()%VELICINA;
     }
 
     time_t t1,t2;
